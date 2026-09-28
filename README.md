@@ -162,21 +162,4 @@ Can the activity be detected in a SIEM?
 
 This lab is designed to build that operating-system knowledge before moving deeper into SOC detection and incident investigation.
 
-## What I Am Learning
-
-This repository documents my hands-on work, commands, experiments, observations, and troubleshooting rather than simply listing topics that I have studied.
-
-More sections will be added as the lab develops.
-
-## Future Integration
-
-This Windows lab will eventually be connected to my SOC environment using:
-
-* Sysmon
-* Splunk
-* Windows Event Logs
-* SIEM-based detection
-* Security investigation scenarios
-
-The objective is to move from **Windows administration → Windows security visibility → SOC investigation**.
 
