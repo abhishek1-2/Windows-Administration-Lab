@@ -113,5 +113,31 @@ Topics include:
 
 These concepts will later be connected to my SOC lab and SIEM investigations.
 
+## SOC RELEVANCE 
+##  Project Documentation
 
+Explore the practical exercises documented in this repository:
+
+- [Windows File System Exploration](docs/file-system.md)
+- [Local Users and Groups Management](docs/users-and-groups.md)
+- [NTFS Permissions and Access Control](docs/ntfs-permissions.md)
+
+##  Practical Evidence
+
+Screenshots of the lab exercises are available in the [`screenshots/`](screenshots/) directory.
+
+The evidence includes:
+
+- Windows directory structure and environment variables
+- Local user accounts and department-group membership
+- NTFS permissions and ACL entries
+- Access granted and denied during HR account testing
+
+##  Key Learning Outcomes
+
+- Inspecting Windows system directories using PowerShell
+- Managing local accounts and security groups
+- Applying the principle of least privilege through NTFS permissions
+- Verifying access behavior using standard user accounts
+- Documenting administrative actions and observed security results
 
