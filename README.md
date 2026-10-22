@@ -10,13 +10,7 @@ This project is part of my cybersecurity/SOC learning path. The goal is not simp
 * Work with Windows users and groups
 * Understand NTFS permissions and ACLs
 * Manage processes and services
-* Learn Windows networking from the command line
 * Use PowerShell for system administration
-* Understand Windows Event Logs
-* Explore the Windows Registry
-* Work with scheduled tasks
-* Understand Windows security concepts relevant to SOC analysis
-
 ## Environment
 
 * Operating System: Windows 11
@@ -119,47 +113,5 @@ Topics include:
 
 These concepts will later be connected to my SOC lab and SIEM investigations.
 
-### 9. Windows Registry
-
-Topics include:
-
-* Registry structure
-* Registry keys and values
-* Common registry locations
-* Using the command line to inspect registry information
-* Security relevance of registry modifications
-
-### 10. Scheduled Tasks
-
-Topics include:
-
-* Viewing scheduled tasks
-* Creating scheduled tasks
-* Managing scheduled tasks
-* Understanding why scheduled tasks are important for system administration and security monitoring
-
-## SOC Relevance
-
-Understanding the operating system is essential for security operations.
-
-When investigating a security alert, an analyst may need to determine:
-
-```text
-Who performed the action?
-        ↓
-What process executed?
-        ↓
-What user was involved?
-        ↓
-What file or system resource was accessed?
-        ↓
-What network connection was created?
-        ↓
-What Windows event recorded the activity?
-        ↓
-Can the activity be detected in a SIEM?
-```
-
-This lab is designed to build that operating-system knowledge before moving deeper into SOC detection and incident investigation.
 
 
